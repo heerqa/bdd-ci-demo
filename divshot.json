@@ -1,0 +1,6 @@
+{
+  "name": "bdd-ci-demo",
+  "root": "target/site/serenity/",
+  "clean_urls": false,
+  "error_page": "error.html"
+}
