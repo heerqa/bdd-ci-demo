@@ -30,7 +30,7 @@ public void user_enters_valid_username_and_passsword_and_click_login() throws Th
 
 @Step
 public void user_is_loggedin() throws Throwable {
-	//Assert.assertEquals("Please give us a moment to make your data securely available to you.", homePage.getPopUpText());
+	Assert.assertEquals("Pleasssadsde give us a moment to make your data securely available to you.", homePage.getPopUpText());
 	//Assert.assertEquals("Personal Documents", homePage.getPersonalDcumentText());
 }
 
