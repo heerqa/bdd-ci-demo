@@ -10,7 +10,7 @@
 		<serenity.version>1.0.50</serenity.version>
 		<serenity.jbehave.version>1.0.20</serenity.jbehave.version>
 		<serenity.cucumber.version>1.0.17</serenity.cucumber.version>
-		<webdriver.driver>chrome</webdriver.driver>
+		<webdriver.driver>firefox</webdriver.driver>
 		<spring-framework.version>4.1.2.RELEASE</spring-framework.version>
 	</properties>
 
@@ -129,6 +129,7 @@
 				<version>2.18</version>
 				<configuration>
 					<skip>true</skip>
+					<testFailureIgnore>true</testFailureIgnore>
 				</configuration>
 			</plugin>
 			<plugin>
